@@ -4,6 +4,7 @@ fun main() {
 
     println((getTargetSum(arrayList, 9)).toList())
 }
+// checks if number is palindrome
 fun checkPalindrome(x: Int): Boolean{
     if (x < 0) {
         return false
